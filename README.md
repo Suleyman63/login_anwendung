@@ -1,40 +1,86 @@
 # login_anwendung
 
-This template should help get you started developing with Vue 3 in Vite.
+Diese Vorlage soll Ihnen helfen, mit Vue 3 und Vite mit 
+der Entwicklung zu beginnen.
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Vor dem Start
 
-## Type Support for `.vue` Imports in TS
+Stellen Sie sicher, dass Sie Node.js auf Ihrem Computer installiert haben. 
+Sie können Node.js von der offiziellen Website herunterladen und installieren: 
+https://nodejs.org/en
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Projekt einrichten
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+1. Klonen Sie dieses Repository oder laden Sie den Code herunter.
 
-## Customize configuration
+2. Öffnen Sie das Projekt in Visual Studio Code, einer leistungsstarken
+   und beliebten Entwicklungsumgebung. Sie können Visual Studio Code von 
+   der offiziellen Website herunterladen und installieren: 
+   https://code.visualstudio.com/
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## Projektabhängigkeiten installieren
 
-```sh
+Öffnen Sie ein Terminalfenster in Visual Studio Code und führen 
+Sie den folgenden Befehl aus, um die erforderlichen Abhängigkeiten 
+zu installieren:
+
+```shell
 npm install
 ```
+Dieser Befehl installiert alle erforderlichen Abhängigkeiten, 
+die in der package.json-Datei aufgeführt sind.
 
-### Compile and Hot-Reload for Development
 
-```sh
-npm run dev
+## Entwicklungsserver starten
+
+Starten Sie den Entwicklungsserver, um die Aufgabe lokal auszuführen. 
+Führen Sie den folgenden Befehl im Terminalfenster aus
+
+```shell
+npm npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+Der Entwicklungsserver wird gestartet, und Sie erhalten eine URL, unter der 
+die Anwendung im Browser aufgerufen werden kann. Sie können Änderungen am Code vornehmen, 
+und der Entwicklungsserver wird automatisch die Anwendung aktualisieren, 
+damit Sie die Änderungen in Echtzeit sehen können.
+
+Nachdem Sie die Anwendung im Browser geöffnet haben, können Sie die folgenden 
+Anmeldeinformationen verwenden, um sich einzuloggen:
+
+ - E-Mail-Adresse: test@example.com
+ - Passwort : passwort
+
+Verwenden Sie diese Anmeldeinformationen, um Zugriff auf die Anwendung zu erhalten 
+und die Funktionen zu testen.
+
+### Build für Produktion
+
+Führen Sie den folgenden Befehl aus, um eine optimierte 
+Build-Version für die Produktion zu erstellen
 
 ```sh
 npm run build
 ```
+
+Dieser Befehl erstellt eine optimierte Version der Anwendung im dist-Verzeichnis. 
+Diese Build-Version kann dann auf einem Webserver bereitgestellt werden.
+
+
+## Weitere Informationen
+
+Weitere Informationen zur Verwendung von TypeScript, 
+Vue 3 - Vite und Pinia finden Sie in den offiziellen Dokumentationen:
+
+    - https://www.typescriptlang.org/docs/
+
+    - https://vuejs.org/
+
+    - https://vitejs.dev/
+
+    - https://pinia.vuejs.org/
+
+
