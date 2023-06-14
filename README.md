@@ -75,12 +75,12 @@ Diese Build-Version kann dann auf einem Webserver bereitgestellt werden.
 Weitere Informationen zur Verwendung von TypeScript, 
 Vue 3 - Vite und Pinia finden Sie in den offiziellen Dokumentationen:
 
-    - https://www.typescriptlang.org/docs/
+    https://www.typescriptlang.org/docs/
 
-    - https://vuejs.org/
+    https://vuejs.org/
 
-    - https://vitejs.dev/
+    https://vitejs.dev/
 
-    - https://pinia.vuejs.org/
+    https://pinia.vuejs.org/
 
 
