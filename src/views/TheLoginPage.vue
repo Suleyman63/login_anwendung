@@ -29,7 +29,7 @@
                     id="remember" 
                     v-model="rememberMe"
             >
-            <label for="remember">Remember me</label>
+            <label for="remember">Anmeldedaten speichern</label>
         </div>
         <CustomButton type="submit">Anmelden</CustomButton>
       </form>
